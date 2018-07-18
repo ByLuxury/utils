@@ -1,4 +1,4 @@
-package utils
+package util
 
 // GetSign Get a Sign
 func GetSign(month, day int) string {
