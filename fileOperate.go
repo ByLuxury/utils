@@ -1,4 +1,4 @@
-package util
+package utils
 
 import (
 	"io/ioutil"
@@ -6,7 +6,7 @@ import (
 	"io"
 )
 
-// ReadFile
+// ReadFile ...
 func ReadFile(filename string) ([]byte, error) {
 	data, err := ioutil.ReadFile(filename)
 	return data, err

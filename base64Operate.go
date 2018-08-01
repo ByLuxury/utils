@@ -1,4 +1,4 @@
-package util
+package utils
 
 import (
 	"encoding/base64"
@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-// DecodeBase64String
+// DecodeBase64String ...
 func DecodeBase64String(src string) ([]byte, error) {
 	data, err := base64.StdEncoding.DecodeString(src)
 	return data, err
